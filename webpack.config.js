@@ -8,6 +8,14 @@ module.exports = {
 	mode: "production",
 	plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, "src", "index.html")
+	}),
+	new HtmlWebpackPlugin({
+		template: path.resolve(__dirname, "src", "archive.html"),
+		filename: "archive.html"
+	}),
+	new HtmlWebpackPlugin({
+		template: path.resolve(__dirname, "src", "settings.html"),
+		filename: "settings.html"
 	})
 	/* følgende skal indsættes ved oprettelse af ethvert nyt HTML dokument, HUSK at ændre dokument-navn:
 	 new HtmlWebpackPlugin({
@@ -32,15 +40,7 @@ module.exports = {
 						}
 					}
 				]
-			},
-			new HtmlWebpackPlugin({
-				template: path.resolve(__dirname, "src", "archive.html"),
-				filename: "archive.html"
-			}),
-			new HtmlWebpackPlugin({
-				template: path.resolve(__dirname, "src", "settings.html"),
-				filename: "settings.html"
-			})
+			}
 		]
 	},
 	optimization: {
