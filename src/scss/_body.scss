@@ -1,4 +1,7 @@
 /* Style for mobile devices */
+
+@use "variables" as var;
+
 @media (max-width: 480px) {
     body {
       

@@ -1,0 +1,36 @@
+@use "variables" as var;
+
+
+.settings__header {
+    color: #324755;
+
+}
+
+.settings_flex_container {
+    display: flex;
+    align-items: center;
+/*     background-color: white; */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.settings_box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.left_box {
+    font-size: 15px;
+}
+
+.middle_box {
+    font-size: 10px;
+}
+
+.right_box {
+    color: #fff;
+    font-size: 16px;
+}

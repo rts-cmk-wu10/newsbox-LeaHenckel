@@ -1,0 +1,18 @@
+@use "variables" as var;
+
+.main__settings {
+    background-color: var.$secondary-fossil;
+}
+
+.manage {
+    color: var.$primary-sage;
+}
+
+.categories {
+    color: var.$primary-drab;
+}
+
+.settings__manage_category {
+    text-align: center;
+}
+

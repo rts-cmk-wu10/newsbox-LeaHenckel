@@ -1,14 +1,16 @@
+@use "variables" as var;
+
 .flex_container {
     display: flex;
-    flex-direction: row; /* Make sure it's horizontal */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Centers the items vertically */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
     background-color: white;
     padding: 20px;
 }
 
 .box {
-    display: inline-block; /* Ensures that the boxes are displayed inline */
+    display: inline-block; 
     background-color: white;
     color: #324755;
     padding: 20px;
