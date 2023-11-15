@@ -3,9 +3,14 @@
 @use "variables" as var;
 
 @media (max-width: 480px) {
-    body {
-      
-      font-size: 12px;
+  body {
+    font-size: 12px;
 
+    /* Remove text decoration from ul and li */
+    ul,
+    li {
+      list-style: none;
+      text-decoration: none;
     }
   }
+}

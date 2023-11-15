@@ -1,0 +1,13 @@
+@use "variables" as var;
+
+.article__headline--world,
+.article__headline--arts,
+.article__headline--travel,
+.article__headline--science,
+.article__headline--business,
+.article__headline--food,
+.article__headline--health {
+  font-weight: bold;
+  color: var.$primary-drab;
+  font-size: larger;
+}
