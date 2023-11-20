@@ -1,22 +1,25 @@
 // Primary colors:
-$primary-sage: #87BCBF;
-$primary-rust: #D97D54;
-$primary-drab: #324755;
-$primary-danger: #D95454;
+:root {
+  --primary-sage: #87bcbf;
+  --primary-rust: #d97d54;
+  --primary-drab: #324755;
+  --primary-danger: #d95454;
+}
 
 // Secondary colors:
-$secondary-ice: #F0F3F4;
-$secondary-fossil: #C8D1D3;
-$secondary-sand: #B9B0A2;
+:root {
+  --secondary-ice: #f0f3f4;
+  --secondary-fossil: #c8d1d3;
+  --secondary-sand: #b9b0a2;
+}
 
 // Typography colors:
-$typography-onyx: #1B1C20;
-$typography-slate: #6E8CA0;
-$typography-snow: #FFFFFF;
+:root {
+  --typography-onyx: #1b1c20;
+  --typography-slate: #6e8ca0;
+  --typography-snow: #ffffff;
+}
 
 // Fonts
 $font-primary: "europa", sans-serif;
 $font-secondary: "rift-soft", sans-serif;
-
-
-

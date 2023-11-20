@@ -13,7 +13,7 @@
     ></script>
     <!-- icons from Font Awesome -->
   </head>
-  <body class="settings__body">
+  <body class="settings__body darkmode">
     <header>
       <section class="settings_flex_container">
         <a href="index.html" class="box"
@@ -27,23 +27,71 @@
     </header>
 
     <main class="main__settings">
-      <ul>
-        <h1 class="settings__manage_category">
-          <span class="manage">Manage</span> <br />
-          <span class="categories">Categories</span>
-        </h1>
-        <li>WORLD</li>
-        <li>ART</li>
-        <li>TRAVEL</li>
-        <li>SCIENCE</li>
-        <li>BUSINESS</li>
-        <li>FOOD</li>
-        <li>HEALTH</li>
+      <h1 class="settings__manage_category">
+        <span class="manage">Manage</span> <br />
+        <span class="categories">Categories</span>
+      </h1>
+      <ul class="setting__list">
+        <li>
+          WORLD
+          <label class="switch">
+            <input type="checkbox" data-category="world" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          ART
+          <label class="switch">
+            <input type="checkbox" data-category="art" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          TRAVEL
+          <label class="switch">
+            <input type="checkbox" data-category="travel" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          SCIENCE
+          <label class="switch">
+            <input type="checkbox" data-category="science" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          BUSINESS
+          <label class="switch">
+            <input type="checkbox" data-category="business" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          FOOD
+          <label class="switch">
+            <input type="checkbox" data-category="food" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+
+        <li>
+          HEALTH
+          <label class="switch">
+            <input type="checkbox" data-category="health" />
+            <span class="slider round"></span>
+          </label>
+        </li>
       </ul>
     </main>
 
-    <section>
-      <p>Toggle Dark Mode</p>
+    <section class="btn__section">
+      <button class="activate__darkMode--btn">TOGGLE DARK MODE</button>
     </section>
   </body>
 </html>

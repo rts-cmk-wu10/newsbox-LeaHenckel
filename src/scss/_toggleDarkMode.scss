@@ -1,0 +1,11 @@
+.btn__section {
+  text-align: center; /* Center the button within the section */
+}
+
+.activate__darkMode--btn {
+  background-color: var(--secondary-ice);
+  border: 2px solid var(--secondary-fossil);
+  border-radius: 20%;
+  padding: 10px 30px; /* Adjust padding - it's not pretty yet */
+  cursor: pointer; /* Added a pointer cursor for better UX */
+}

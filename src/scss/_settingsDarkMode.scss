@@ -1,11 +1,16 @@
 @use "variables" as var;
 
-body.lightmode {
-  --bodyBackgroundColor: white;
-  --lightModeTextColor: var.$primary-drab;
+body {
+  --bodyBackgroundColor: var(--secondary-ice);
+  --textColor: var(--primary-drab);
 }
 
 body.darkmode {
-  --bodyBackgroundColor: var.$primary-drab;
-  --darkModeTextColor: var.$secondary-sand;
+  --bodyBackgroundColor: var(--primary-drab);
+  --textColor: var(--secondary-sand);
+}
+
+body {
+  background-color: var(--bodyBackgroundColor);
+  color: var(--textColor);
 }
