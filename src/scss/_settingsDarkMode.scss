@@ -10,7 +10,12 @@ body.darkmode {
   --textColor: var(--secondary-sand);
 }
 
+@mixin transition($var) {
+  transition: $var 800ms ease;
+}
+
 body {
   background-color: var(--bodyBackgroundColor);
+  @include transition((background-color));
   color: var(--textColor);
 }
