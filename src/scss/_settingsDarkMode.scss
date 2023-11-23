@@ -14,6 +14,13 @@ body.darkmode {
   transition: $var 800ms ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    --bodyBackgroundColor: var(--primary-drab);
+    --textColor: var(--secondary-sand);
+  }
+}
+
 body {
   background-color: var(--bodyBackgroundColor);
   @include transition((background-color));

@@ -4,14 +4,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Align vertically and horizontally */
+  justify-content: center; /* Aligns vertically and horizontally */
   border-top: 2px solid #ecf3f3;
   border-bottom: 2px solid #ecf3f3;
   padding: 25px 0; /* Adds some padding to create space between border and searchfield */
 }
 
 .search_field {
-  background-color: #eff3f4;
+  background-color: white;
   border: none;
   border-radius: 10px;
   padding: 10px;
